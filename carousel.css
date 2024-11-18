@@ -1,0 +1,47 @@
+* {
+  font-family: Nunito Sans, sans-serif;
+}
+.date-carousel {
+  background-color: none;
+  box-sizing: border-box;
+
+  display: flex;
+  height: 0.5in;
+  margin: auto;
+  position: relative;
+  width: 18rem;
+  margin-top: 0.5rem;
+}
+
+.date-carousel-next,
+.date-carousel-prev,
+.date-carousel-input {
+  box-sizing: border-box;
+  position: relative;
+  border: none;
+}
+
+.date-carousel-next,
+.date-carousel-prev {
+  background-color: transparent;
+  cursor: pointer;
+
+  stroke-width: 20px;
+}
+
+.date-carousel-input {
+  color: rgb(20, 170, 70);
+  background-color: transparent;
+  text-align: center;
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+/* Disable Native UI */
+
+.date-carousel-input::-webkit-inner-spin-button,
+.date-carousel-input::-webkit-input-placeholder {
+  display: none;
+  -webkit-appearance: none;
+}
