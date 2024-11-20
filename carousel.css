@@ -9,7 +9,7 @@
   height: 0.5in;
   margin: auto;
   position: relative;
-  width: 18rem;
+  width: 22rem;
   margin-top: 0.5rem;
 }
 
@@ -25,16 +25,16 @@
 .date-carousel-prev {
   background-color: transparent;
   cursor: pointer;
-
-  stroke-width: 20px;
+  width: 5rem;
+  fill: rgb(20, 170, 70);
 }
 
 .date-carousel-input {
-  color: rgba(0, 0, 0, 0.808);
+  color: #000000ce;
   background-color: transparent;
   text-align: center;
   width: 100%;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: bolder;
 }
 
