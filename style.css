@@ -520,7 +520,7 @@ body {
   margin-bottom: 3rem;
 }
 .fixture:hover {
-  transform: translateY(-5px);
+  transform: translate(-0.5px, -5px);
 }
 .fixture__teams__event {
   height: 100%;
