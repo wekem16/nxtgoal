@@ -533,7 +533,7 @@ body {
   border-radius: 9px;
 }
 .fixture__teams__event:hover {
-  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.808);
+  box-shadow: 2px 2px 2px 0px gray;
 }
 .fixture__teams {
   display: flex;
