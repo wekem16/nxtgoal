@@ -4,13 +4,13 @@
 .date-carousel {
   background-color: none;
   box-sizing: border-box;
-
+  justify-content: space-between;
   display: flex;
   height: 0.5in;
-  margin: auto;
+  padding: 1rem 1rem 1rem 1rem;
   position: relative;
-  width: 22rem;
-  margin-top: 0.5rem;
+  width: 100%;
+  margin-top: 0.1rem;
 }
 
 .date-carousel-next,
@@ -25,15 +25,16 @@
 .date-carousel-prev {
   background-color: transparent;
   cursor: pointer;
-  width: 5rem;
-  fill: rgb(20, 170, 70);
+  width: 4rem;
+  fill: rgba(0, 0, 0, 0.808);
+  /* fill: rgb(20, 170, 70); */
 }
 
 .date-carousel-input {
   color: #000000ce;
   background-color: transparent;
   text-align: center;
-  width: 100%;
+  width: 15rem;
   font-size: 1.7rem;
   font-weight: bolder;
 }
